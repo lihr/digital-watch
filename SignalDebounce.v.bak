@@ -1,0 +1,37 @@
+module SignalDebounce(
+
+input Clk_100Hz,
+input Raw,
+output reg Cleaned = 0
+
+);
+
+reg [7:0]Counter = 8'b00000000;
+
+always @ (posedge Clk_100Hz)
+	begin
+		
+		if(Raw == 1'b1)
+			begin
+			
+				Counter = Counter << 1;
+				Counter = Counter + 1;
+			
+			end
+		else if(Raw == 1'b0)
+			begin
+			
+				Counter = Counter << 1;
+			
+			end
+		case(Counter)
+			
+			8'b11111111: Cleaned = 1'b1;
+			
+			default: Cleaned = 1'b0;
+			
+		endcase
+	
+	end
+	
+endmodule 

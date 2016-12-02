@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Projects/FPGA/DigitalWatch/simulation/qsim
+vDigitalWatch
+Z0 !s110 1480460438
+!i10b 1
+!s100 =@GRbWY4a4SOHILn:3aFU1
+IJeGD;^17ooKUimHijOf>S3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/arunapuc/Desktop/DigitalWatch/simulation/qsim
+w1480460437
+8DigitalWatch.vo
+FDigitalWatch.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1480460438.000000
+!s107 DigitalWatch.vo|
+!s90 -work|work|DigitalWatch.vo|
+!i113 1
+Z5 o-work work
+n@digital@watch
+vDigitalWatch_vlg_vec_tst
+R0
+!i10b 1
+!s100 C=>1mA:UB@C@?GIhgOQ`m2
+Io4coDKfQg1;foh4UPnEem1
+R1
+R2
+w1480460436
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R5
+n@digital@watch_vlg_vec_tst

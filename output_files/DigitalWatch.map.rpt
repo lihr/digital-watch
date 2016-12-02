@@ -1,0 +1,836 @@
+Analysis & Synthesis report for DigitalWatch
+Fri Dec 02 00:08:43 2016
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Port Connectivity Checks: "SingleDigit:D4"
+ 14. Port Connectivity Checks: "DisplayDriver:D2"
+ 15. Port Connectivity Checks: "DisplayDriver:D1"
+ 16. Port Connectivity Checks: "Stopwatch:S0"
+ 17. Post-Synthesis Netlist Statistics for Top Partition
+ 18. Elapsed Time Per Partition
+ 19. Analysis & Synthesis Messages
+ 20. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Dec 02 00:08:43 2016       ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name                      ; DigitalWatch                                ;
+; Top-level Entity Name              ; DigitalWatch                                ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 555                                         ;
+;     Total combinational functions  ; 511                                         ;
+;     Dedicated logic registers      ; 217                                         ;
+; Total registers                    ; 217                                         ;
+; Total pins                         ; 66                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; DigitalWatch       ; DigitalWatch       ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                     ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
+; DigitalWatch.v                   ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v      ;         ;
+; Timekeeper.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v        ;         ;
+; Stopwatch.v                      ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v         ;         ;
+; SignalDebounce.v                 ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/SignalDebounce.v    ;         ;
+; SingleDigit.v                    ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v       ;         ;
+; Alarm.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v             ;         ;
+; DisplayAlarmState.v              ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/DisplayAlarmState.v ;         ;
+; displaydriver.v                  ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v     ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                   ;
++---------------------------------------------+-----------------+
+; Resource                                    ; Usage           ;
++---------------------------------------------+-----------------+
+; Estimated Total logic elements              ; 555             ;
+;                                             ;                 ;
+; Total combinational functions               ; 511             ;
+; Logic element usage by number of LUT inputs ;                 ;
+;     -- 4 input functions                    ; 254             ;
+;     -- 3 input functions                    ; 105             ;
+;     -- <=2 input functions                  ; 152             ;
+;                                             ;                 ;
+; Logic elements by mode                      ;                 ;
+;     -- normal mode                          ; 445             ;
+;     -- arithmetic mode                      ; 66              ;
+;                                             ;                 ;
+; Total registers                             ; 217             ;
+;     -- Dedicated logic registers            ; 217             ;
+;     -- I/O registers                        ; 0               ;
+;                                             ;                 ;
+; I/O pins                                    ; 66              ;
+;                                             ;                 ;
+; Embedded Multiplier 9-bit elements          ; 0               ;
+;                                             ;                 ;
+; Maximum fan-out node                        ; Clk_50MHz~input ;
+; Maximum fan-out                             ; 107             ;
+; Total fan-out                               ; 2214            ;
+; Average fan-out                             ; 2.57            ;
++---------------------------------------------+-----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                       ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------+----------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name              ; Entity Name    ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------+----------------+--------------+
+; |DigitalWatch              ; 511 (74)          ; 217 (2)      ; 0           ; 0            ; 0       ; 0         ; 66   ; 0            ; |DigitalWatch                    ; DigitalWatch   ; work         ;
+;    |Alarm:A0|              ; 35 (35)           ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|Alarm:A0           ; Alarm          ; work         ;
+;    |DisplayDriver:D0|      ; 84 (84)           ; 15 (15)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|DisplayDriver:D0   ; DisplayDriver  ; work         ;
+;    |DisplayDriver:D1|      ; 52 (52)           ; 15 (15)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|DisplayDriver:D1   ; DisplayDriver  ; work         ;
+;    |DisplayDriver:D2|      ; 28 (28)           ; 15 (15)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|DisplayDriver:D2   ; DisplayDriver  ; work         ;
+;    |SignalDebounce:SD0|    ; 50 (50)           ; 37 (37)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|SignalDebounce:SD0 ; SignalDebounce ; work         ;
+;    |SignalDebounce:SD1|    ; 5 (5)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|SignalDebounce:SD1 ; SignalDebounce ; work         ;
+;    |SignalDebounce:SD2|    ; 5 (5)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|SignalDebounce:SD2 ; SignalDebounce ; work         ;
+;    |SignalDebounce:SD3|    ; 5 (5)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|SignalDebounce:SD3 ; SignalDebounce ; work         ;
+;    |SingleDigit:D4|        ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|SingleDigit:D4     ; SingleDigit    ; work         ;
+;    |Stopwatch:S0|          ; 52 (52)           ; 41 (41)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|Stopwatch:S0       ; Stopwatch      ; work         ;
+;    |Timekeeper:Tk0|        ; 116 (116)         ; 51 (51)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DigitalWatch|Timekeeper:Tk0     ; Timekeeper     ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------+----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                      ;
++-----------------------------------------------------+---------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal       ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------------+------------------------+
+; SingleDigit:D4|SevenSeg[2]                          ; SingleDigit:D4|Mux5       ; yes                    ;
+; SingleDigit:D4|SevenSeg[3]                          ; SingleDigit:D4|Mux5       ; yes                    ;
+; SingleDigit:D4|SevenSeg[4]                          ; SingleDigit:D4|Mux5       ; yes                    ;
+; SingleDigit:D4|SevenSeg[5]                          ; SingleDigit:D4|Mux5       ; yes                    ;
+; SingleDigit:D4|SevenSeg[6]                          ; SingleDigit:D4|Mux5       ; yes                    ;
+; Alarm:A0|BuzzerBit                                  ; Alarm:A0|BuzzerBit        ; yes                    ;
+; StateSW                                             ; SingleDigit:D4|Mux5       ; yes                    ;
+; DisplayDriver:D0|bcd0.0111_277                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.0001_325                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.0000_333                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; BlinkSecBuff                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; DisplayDriver:D0|bcd0.0010_317                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.0011_309                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.0110_285                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.1000_269                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.0100_301                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd0.0101_293                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0111_357                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0001_405                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0000_413                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0011_389                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0010_397                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.1000_349                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0110_365                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0100_381                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; DisplayDriver:D0|bcd1.0101_373                      ; DisplayDriver:D0|WideOr35 ; yes                    ;
+; BlinkMinBuff                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; MinBuffer[0]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; MinBuffer[5]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; MinBuffer[1]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; MinBuffer[2]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; MinBuffer[3]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; MinBuffer[4]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; BlinkHrBuff                                         ; SingleDigit:D4|Mux5       ; yes                    ;
+; HrBuffer[0]                                         ; SingleDigit:D4|Mux5       ; yes                    ;
+; HrBuffer[4]                                         ; SingleDigit:D4|Mux5       ; yes                    ;
+; HrBuffer[1]                                         ; SingleDigit:D4|Mux5       ; yes                    ;
+; HrBuffer[2]                                         ; SingleDigit:D4|Mux5       ; yes                    ;
+; HrBuffer[3]                                         ; SingleDigit:D4|Mux5       ; yes                    ;
+; StateAlm                                            ; SingleDigit:D4|Mux5       ; yes                    ;
+; StateTk                                             ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[0]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[6]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[1]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[2]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[3]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[5]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; SecBuffer[4]                                        ; SingleDigit:D4|Mux5       ; yes                    ;
+; Number of user-specified and inferred latches = 48  ;                           ;                        ;
++-----------------------------------------------------+---------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++--------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                   ;
++-----------------------------------------+--------------------------------------------+
+; Register name                           ; Reason for Removal                         ;
++-----------------------------------------+--------------------------------------------+
+; SignalDebounce:SD1|Counter[17]          ; Merged with SignalDebounce:SD0|Counter[17] ;
+; SignalDebounce:SD2|Counter[17]          ; Merged with SignalDebounce:SD0|Counter[17] ;
+; SignalDebounce:SD3|Counter[17]          ; Merged with SignalDebounce:SD0|Counter[17] ;
+; Stopwatch:S0|Counter[17]                ; Merged with SignalDebounce:SD0|Counter[17] ;
+; SignalDebounce:SD1|Counter[16]          ; Merged with SignalDebounce:SD0|Counter[16] ;
+; SignalDebounce:SD2|Counter[16]          ; Merged with SignalDebounce:SD0|Counter[16] ;
+; SignalDebounce:SD3|Counter[16]          ; Merged with SignalDebounce:SD0|Counter[16] ;
+; Stopwatch:S0|Counter[16]                ; Merged with SignalDebounce:SD0|Counter[16] ;
+; SignalDebounce:SD1|Counter[15]          ; Merged with SignalDebounce:SD0|Counter[15] ;
+; SignalDebounce:SD2|Counter[15]          ; Merged with SignalDebounce:SD0|Counter[15] ;
+; SignalDebounce:SD3|Counter[15]          ; Merged with SignalDebounce:SD0|Counter[15] ;
+; Stopwatch:S0|Counter[15]                ; Merged with SignalDebounce:SD0|Counter[15] ;
+; SignalDebounce:SD1|Counter[14]          ; Merged with SignalDebounce:SD0|Counter[14] ;
+; SignalDebounce:SD2|Counter[14]          ; Merged with SignalDebounce:SD0|Counter[14] ;
+; SignalDebounce:SD3|Counter[14]          ; Merged with SignalDebounce:SD0|Counter[14] ;
+; Stopwatch:S0|Counter[14]                ; Merged with SignalDebounce:SD0|Counter[14] ;
+; SignalDebounce:SD1|Counter[12]          ; Merged with SignalDebounce:SD0|Counter[12] ;
+; SignalDebounce:SD2|Counter[12]          ; Merged with SignalDebounce:SD0|Counter[12] ;
+; SignalDebounce:SD3|Counter[12]          ; Merged with SignalDebounce:SD0|Counter[12] ;
+; Stopwatch:S0|Counter[12]                ; Merged with SignalDebounce:SD0|Counter[12] ;
+; SignalDebounce:SD1|Counter[7]           ; Merged with SignalDebounce:SD0|Counter[7]  ;
+; SignalDebounce:SD2|Counter[7]           ; Merged with SignalDebounce:SD0|Counter[7]  ;
+; SignalDebounce:SD3|Counter[7]           ; Merged with SignalDebounce:SD0|Counter[7]  ;
+; Stopwatch:S0|Counter[7]                 ; Merged with SignalDebounce:SD0|Counter[7]  ;
+; SignalDebounce:SD1|Counter[4]           ; Merged with SignalDebounce:SD0|Counter[4]  ;
+; SignalDebounce:SD2|Counter[4]           ; Merged with SignalDebounce:SD0|Counter[4]  ;
+; SignalDebounce:SD3|Counter[4]           ; Merged with SignalDebounce:SD0|Counter[4]  ;
+; Stopwatch:S0|Counter[4]                 ; Merged with SignalDebounce:SD0|Counter[4]  ;
+; SignalDebounce:SD1|Counter[27]          ; Merged with SignalDebounce:SD0|Counter[27] ;
+; SignalDebounce:SD2|Counter[27]          ; Merged with SignalDebounce:SD0|Counter[27] ;
+; SignalDebounce:SD3|Counter[27]          ; Merged with SignalDebounce:SD0|Counter[27] ;
+; Stopwatch:S0|Counter[27]                ; Merged with SignalDebounce:SD0|Counter[27] ;
+; SignalDebounce:SD1|Counter[26]          ; Merged with SignalDebounce:SD0|Counter[26] ;
+; SignalDebounce:SD2|Counter[26]          ; Merged with SignalDebounce:SD0|Counter[26] ;
+; SignalDebounce:SD3|Counter[26]          ; Merged with SignalDebounce:SD0|Counter[26] ;
+; Stopwatch:S0|Counter[26]                ; Merged with SignalDebounce:SD0|Counter[26] ;
+; SignalDebounce:SD1|Counter[25]          ; Merged with SignalDebounce:SD0|Counter[25] ;
+; SignalDebounce:SD2|Counter[25]          ; Merged with SignalDebounce:SD0|Counter[25] ;
+; SignalDebounce:SD3|Counter[25]          ; Merged with SignalDebounce:SD0|Counter[25] ;
+; Stopwatch:S0|Counter[25]                ; Merged with SignalDebounce:SD0|Counter[25] ;
+; SignalDebounce:SD1|Counter[24]          ; Merged with SignalDebounce:SD0|Counter[24] ;
+; SignalDebounce:SD2|Counter[24]          ; Merged with SignalDebounce:SD0|Counter[24] ;
+; SignalDebounce:SD3|Counter[24]          ; Merged with SignalDebounce:SD0|Counter[24] ;
+; Stopwatch:S0|Counter[24]                ; Merged with SignalDebounce:SD0|Counter[24] ;
+; SignalDebounce:SD1|Counter[23]          ; Merged with SignalDebounce:SD0|Counter[23] ;
+; SignalDebounce:SD2|Counter[23]          ; Merged with SignalDebounce:SD0|Counter[23] ;
+; SignalDebounce:SD3|Counter[23]          ; Merged with SignalDebounce:SD0|Counter[23] ;
+; Stopwatch:S0|Counter[23]                ; Merged with SignalDebounce:SD0|Counter[23] ;
+; SignalDebounce:SD1|Counter[22]          ; Merged with SignalDebounce:SD0|Counter[22] ;
+; SignalDebounce:SD2|Counter[22]          ; Merged with SignalDebounce:SD0|Counter[22] ;
+; SignalDebounce:SD3|Counter[22]          ; Merged with SignalDebounce:SD0|Counter[22] ;
+; Stopwatch:S0|Counter[22]                ; Merged with SignalDebounce:SD0|Counter[22] ;
+; SignalDebounce:SD1|Counter[21]          ; Merged with SignalDebounce:SD0|Counter[21] ;
+; SignalDebounce:SD2|Counter[21]          ; Merged with SignalDebounce:SD0|Counter[21] ;
+; SignalDebounce:SD3|Counter[21]          ; Merged with SignalDebounce:SD0|Counter[21] ;
+; Stopwatch:S0|Counter[21]                ; Merged with SignalDebounce:SD0|Counter[21] ;
+; SignalDebounce:SD1|Counter[20]          ; Merged with SignalDebounce:SD0|Counter[20] ;
+; SignalDebounce:SD2|Counter[20]          ; Merged with SignalDebounce:SD0|Counter[20] ;
+; SignalDebounce:SD3|Counter[20]          ; Merged with SignalDebounce:SD0|Counter[20] ;
+; Stopwatch:S0|Counter[20]                ; Merged with SignalDebounce:SD0|Counter[20] ;
+; SignalDebounce:SD1|Counter[19]          ; Merged with SignalDebounce:SD0|Counter[19] ;
+; SignalDebounce:SD2|Counter[19]          ; Merged with SignalDebounce:SD0|Counter[19] ;
+; SignalDebounce:SD3|Counter[19]          ; Merged with SignalDebounce:SD0|Counter[19] ;
+; Stopwatch:S0|Counter[19]                ; Merged with SignalDebounce:SD0|Counter[19] ;
+; SignalDebounce:SD1|Counter[18]          ; Merged with SignalDebounce:SD0|Counter[18] ;
+; SignalDebounce:SD2|Counter[18]          ; Merged with SignalDebounce:SD0|Counter[18] ;
+; SignalDebounce:SD3|Counter[18]          ; Merged with SignalDebounce:SD0|Counter[18] ;
+; Stopwatch:S0|Counter[18]                ; Merged with SignalDebounce:SD0|Counter[18] ;
+; SignalDebounce:SD1|Counter[13]          ; Merged with SignalDebounce:SD0|Counter[13] ;
+; SignalDebounce:SD2|Counter[13]          ; Merged with SignalDebounce:SD0|Counter[13] ;
+; SignalDebounce:SD3|Counter[13]          ; Merged with SignalDebounce:SD0|Counter[13] ;
+; Stopwatch:S0|Counter[13]                ; Merged with SignalDebounce:SD0|Counter[13] ;
+; SignalDebounce:SD1|Counter[11]          ; Merged with SignalDebounce:SD0|Counter[11] ;
+; SignalDebounce:SD2|Counter[11]          ; Merged with SignalDebounce:SD0|Counter[11] ;
+; SignalDebounce:SD3|Counter[11]          ; Merged with SignalDebounce:SD0|Counter[11] ;
+; Stopwatch:S0|Counter[11]                ; Merged with SignalDebounce:SD0|Counter[11] ;
+; SignalDebounce:SD1|Counter[10]          ; Merged with SignalDebounce:SD0|Counter[10] ;
+; SignalDebounce:SD2|Counter[10]          ; Merged with SignalDebounce:SD0|Counter[10] ;
+; SignalDebounce:SD3|Counter[10]          ; Merged with SignalDebounce:SD0|Counter[10] ;
+; Stopwatch:S0|Counter[10]                ; Merged with SignalDebounce:SD0|Counter[10] ;
+; SignalDebounce:SD1|Counter[9]           ; Merged with SignalDebounce:SD0|Counter[9]  ;
+; SignalDebounce:SD2|Counter[9]           ; Merged with SignalDebounce:SD0|Counter[9]  ;
+; SignalDebounce:SD3|Counter[9]           ; Merged with SignalDebounce:SD0|Counter[9]  ;
+; Stopwatch:S0|Counter[9]                 ; Merged with SignalDebounce:SD0|Counter[9]  ;
+; SignalDebounce:SD1|Counter[8]           ; Merged with SignalDebounce:SD0|Counter[8]  ;
+; SignalDebounce:SD2|Counter[8]           ; Merged with SignalDebounce:SD0|Counter[8]  ;
+; SignalDebounce:SD3|Counter[8]           ; Merged with SignalDebounce:SD0|Counter[8]  ;
+; Stopwatch:S0|Counter[8]                 ; Merged with SignalDebounce:SD0|Counter[8]  ;
+; SignalDebounce:SD1|Counter[6]           ; Merged with SignalDebounce:SD0|Counter[6]  ;
+; SignalDebounce:SD2|Counter[6]           ; Merged with SignalDebounce:SD0|Counter[6]  ;
+; SignalDebounce:SD3|Counter[6]           ; Merged with SignalDebounce:SD0|Counter[6]  ;
+; Stopwatch:S0|Counter[6]                 ; Merged with SignalDebounce:SD0|Counter[6]  ;
+; SignalDebounce:SD1|Counter[5]           ; Merged with SignalDebounce:SD0|Counter[5]  ;
+; SignalDebounce:SD2|Counter[5]           ; Merged with SignalDebounce:SD0|Counter[5]  ;
+; SignalDebounce:SD3|Counter[5]           ; Merged with SignalDebounce:SD0|Counter[5]  ;
+; Stopwatch:S0|Counter[5]                 ; Merged with SignalDebounce:SD0|Counter[5]  ;
+; SignalDebounce:SD1|Counter[3]           ; Merged with SignalDebounce:SD0|Counter[3]  ;
+; SignalDebounce:SD2|Counter[3]           ; Merged with SignalDebounce:SD0|Counter[3]  ;
+; SignalDebounce:SD3|Counter[3]           ; Merged with SignalDebounce:SD0|Counter[3]  ;
+; Stopwatch:S0|Counter[3]                 ; Merged with SignalDebounce:SD0|Counter[3]  ;
+; SignalDebounce:SD1|Counter[2]           ; Merged with SignalDebounce:SD0|Counter[2]  ;
+; SignalDebounce:SD2|Counter[2]           ; Merged with SignalDebounce:SD0|Counter[2]  ;
+; SignalDebounce:SD3|Counter[2]           ; Merged with SignalDebounce:SD0|Counter[2]  ;
+; Stopwatch:S0|Counter[2]                 ; Merged with SignalDebounce:SD0|Counter[2]  ;
+; SignalDebounce:SD1|Counter[1]           ; Merged with SignalDebounce:SD0|Counter[1]  ;
+; SignalDebounce:SD2|Counter[1]           ; Merged with SignalDebounce:SD0|Counter[1]  ;
+; SignalDebounce:SD3|Counter[1]           ; Merged with SignalDebounce:SD0|Counter[1]  ;
+; Stopwatch:S0|Counter[1]                 ; Merged with SignalDebounce:SD0|Counter[1]  ;
+; SignalDebounce:SD1|Counter[0]           ; Merged with SignalDebounce:SD0|Counter[0]  ;
+; SignalDebounce:SD2|Counter[0]           ; Merged with SignalDebounce:SD0|Counter[0]  ;
+; SignalDebounce:SD3|Counter[0]           ; Merged with SignalDebounce:SD0|Counter[0]  ;
+; Stopwatch:S0|Counter[0]                 ; Merged with SignalDebounce:SD0|Counter[0]  ;
+; Total Number of Removed Registers = 112 ;                                            ;
++-----------------------------------------+--------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 217   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 42    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; SignalDebounce:SD0|Clk_100Hz           ; 9       ;
+; SignalDebounce:SD2|Clk_100Hz           ; 9       ;
+; Timekeeper:Tk0|Clk_10Hz                ; 21      ;
+; SignalDebounce:SD3|Clk_100Hz           ; 9       ;
+; SignalDebounce:SD1|Clk_100Hz           ; 9       ;
+; Stopwatch:S0|Clk_100Hz                 ; 21      ;
+; Total number of inverted registers = 6 ;         ;
++----------------------------------------+---------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |DigitalWatch|Timekeeper:Tk0|MinTk[2]       ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |DigitalWatch|Timekeeper:Tk0|HrTk[4]        ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DigitalWatch|Timekeeper:Tk0|SecTk[5]       ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |DigitalWatch|Stopwatch:S0|LiveMiliSecSW[4] ;
+; 5:1                ; 6 bits    ; 18 LEs        ; 6 LEs                ; 12 LEs                 ; Yes        ; |DigitalWatch|Stopwatch:S0|LiveSecSW[4]     ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 7 LEs                ; 14 LEs                 ; Yes        ; |DigitalWatch|Stopwatch:S0|LiveMinSW[2]     ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |DigitalWatch|Mux1                          ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |DigitalWatch|Timekeeper:Tk0|MinTk          ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |DigitalWatch|Timekeeper:Tk0|HrTk           ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |DigitalWatch|Mux12                         ;
+; 4:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |DigitalWatch|Mux17                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+
+
++-----------------------------------------------+
+; Port Connectivity Checks: "SingleDigit:D4"    ;
++-------------+-------+----------+--------------+
+; Port        ; Type  ; Severity ; Details      ;
++-------------+-------+----------+--------------+
+; Digit[3..2] ; Input ; Info     ; Stuck at GND ;
++-------------+-------+----------+--------------+
+
+
++------------------------------------------------+
+; Port Connectivity Checks: "DisplayDriver:D2"   ;
++--------------+-------+----------+--------------+
+; Port         ; Type  ; Severity ; Details      ;
++--------------+-------+----------+--------------+
+; Digits[6..5] ; Input ; Info     ; Stuck at GND ;
++--------------+-------+----------+--------------+
+
+
++----------------------------------------------+
+; Port Connectivity Checks: "DisplayDriver:D1" ;
++-----------+-------+----------+---------------+
+; Port      ; Type  ; Severity ; Details       ;
++-----------+-------+----------+---------------+
+; Digits[6] ; Input ; Info     ; Stuck at GND  ;
++-----------+-------+----------+---------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Stopwatch:S0"                                                                                                             ;
++-------+--------+----------+--------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                                  ;
++-------+--------+----------+--------------------------------------------------------------------------------------------------------------------------+
+; MinSW ; Output ; Warning  ; Output or bidir port (7 bits) is wider than the port expression (5 bits) it drives; bit(s) "MinSW[6..5]" have no fanouts ;
++-------+--------+----------+--------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 66                          ;
+; cycloneiii_ff         ; 217                         ;
+;     ENA               ; 42                          ;
+;     plain             ; 175                         ;
+; cycloneiii_lcell_comb ; 514                         ;
+;     arith             ; 66                          ;
+;         2 data inputs ; 66                          ;
+;     normal            ; 448                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 21                          ;
+;         2 data inputs ; 67                          ;
+;         3 data inputs ; 105                         ;
+;         4 data inputs ; 254                         ;
+;                       ;                             ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 3.25                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+    Info: Processing started: Fri Dec 02 00:08:25 2016
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DigitalWatch -c DigitalWatch
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file digitalwatch.v
+    Info (12023): Found entity 1: DigitalWatch File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file timekeeper.v
+    Info (12023): Found entity 1: Timekeeper File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file stopwatch.v
+    Info (12023): Found entity 1: Stopwatch File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file signaldebounce.v
+    Info (12023): Found entity 1: SignalDebounce File: C:/Users/hongru/Downloads/DigitalWatch_final/SignalDebounce.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file singledigit.v
+    Info (12023): Found entity 1: SingleDigit File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alarm.v
+    Info (12023): Found entity 1: Alarm File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file displayalarmstate.v
+    Info (12023): Found entity 1: DisplayAlarmState File: C:/Users/hongru/Downloads/DigitalWatch_final/DisplayAlarmState.v Line: 1
+Info (12127): Elaborating entity "DigitalWatch" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at DigitalWatch.v(43): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 43
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(101): variable "SecTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 101
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(102): variable "MinTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 102
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(103): variable "HrTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 103
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(109): variable "Blink" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 109
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(153): variable "MiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 153
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(154): variable "SecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 154
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(155): variable "MinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 155
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(161): variable "BlinkSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 161
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(187): variable "MinAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 187
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(188): variable "HrAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 188
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(195): variable "BlinkAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 195
+Warning (10270): Verilog HDL Case Statement warning at DigitalWatch.v(97): incomplete case statement has no default case item File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 97
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "MinBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "HrBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "SecBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateTk", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateSW", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateAlm", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkSecBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkMinBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkHrBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "BlinkHrBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "BlinkMinBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "BlinkSecBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "StateAlm" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "StateSW" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "StateTk" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Info (12128): Elaborating entity "SignalDebounce" for hierarchy "SignalDebounce:SD0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 58
+Warning (10230): Verilog HDL assignment warning at SignalDebounce.v(23): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Downloads/DigitalWatch_final/SignalDebounce.v Line: 23
+Info (12128): Elaborating entity "Stopwatch" for hierarchy "Stopwatch:S0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 240
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(28): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 28
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(62): variable "LiveMiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 62
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(63): variable "LiveSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 63
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(64): variable "LiveMinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 64
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(71): variable "TMPMiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 71
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(72): variable "TMPSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 72
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(73): variable "TMPMinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 73
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(97): truncated value with size 32 to match size of target (7) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 97
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(102): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 102
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(107): truncated value with size 32 to match size of target (7) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 107
+Info (12128): Elaborating entity "Alarm" for hierarchy "Alarm:A0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 249
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "MinAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "MinTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "HrAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "HrTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(27): variable "Alarm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 27
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(35): variable "Button3Alm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 35
+Warning (10240): Verilog HDL Always Construct warning at Alarm.v(22): inferring latch(es) for variable "BuzzerBit", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 22
+Warning (10230): Verilog HDL assignment warning at Alarm.v(50): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 50
+Warning (10230): Verilog HDL assignment warning at Alarm.v(62): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 62
+Warning (10230): Verilog HDL assignment warning at Alarm.v(73): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 73
+Info (10041): Inferred latch for "BuzzerBit" at Alarm.v(35) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 35
+Info (12128): Elaborating entity "Timekeeper" for hierarchy "Timekeeper:Tk0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 259
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(30): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 30
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(39): truncated value with size 32 to match size of target (3) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 39
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(44): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 44
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(50): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 50
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(56): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 56
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(80): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 80
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(92): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 92
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(108): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 108
+Warning (12125): Using design file displaydriver.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: DisplayDriver File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 22
+Info (12128): Elaborating entity "DisplayDriver" for hierarchy "DisplayDriver:D0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 273
+Warning (10270): Verilog HDL Case Statement warning at displaydriver.v(115): incomplete case statement has no default case item File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 115
+Warning (10240): Verilog HDL Always Construct warning at displaydriver.v(113): inferring latch(es) for variable "bcd1", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (10240): Verilog HDL Always Construct warning at displaydriver.v(113): inferring latch(es) for variable "bcd0", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.1001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.1000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0111" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0110" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0101" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0100" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0011" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0010" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd0.0000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.1001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.1000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0111" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0110" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0101" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0100" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0011" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0010" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (10041): Inferred latch for "bcd1.0000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Info (12128): Elaborating entity "DisplayAlarmState" for hierarchy "DisplayAlarmState:D3" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 276
+Info (12128): Elaborating entity "SingleDigit" for hierarchy "SingleDigit:D4" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 277
+Warning (10270): Verilog HDL Case Statement warning at SingleDigit.v(12): incomplete case statement has no default case item File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at SingleDigit.v(9): inferring latch(es) for variable "SevenSeg", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[0]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[1]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[2]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[3]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[4]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[5]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[6]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0001_325" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0000_333" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0001_325" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0000_333" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0100_301" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0101_293" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0110_285" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0111_277" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.1000_269" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0010_317" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0011_389" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0010_397" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0001_405" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0000_413" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0011_309" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0100_301" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0101_293" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0110_285" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0111_277" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.1000_269" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0010_317" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0110_365" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0101_373" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0100_381" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0011_389" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0010_397" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0001_405" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0000_413" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0011_309" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "StateSW" merged with LATCH primitive "SingleDigit:D4|SevenSeg[2]" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 37
+    Info (13026): Duplicate LATCH primitive "StateAlm" merged with LATCH primitive "SingleDigit:D4|SevenSeg[3]" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 38
+    Info (13026): Duplicate LATCH primitive "StateTk" merged with LATCH primitive "SingleDigit:D4|SevenSeg[4]" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 36
+    Info (13026): Duplicate LATCH primitive "SingleDigit:D4|SevenSeg[6]" merged with LATCH primitive "SingleDigit:D4|SevenSeg[4]" File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+Warning (13012): Latch SingleDigit:D4|SevenSeg[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SingleDigit:D4|SevenSeg[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SingleDigit:D4|SevenSeg[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SingleDigit:D4|SevenSeg[5] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch Alarm:A0|BuzzerBit has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 15
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Button3Alm File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 74
+Warning (13012): Latch DisplayDriver:D0|bcd0.0111_277 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0001_325 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0000_333 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch BlinkSecBuff has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 268
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch DisplayDriver:D0|bcd0.0010_317 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0011_309 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0110_285 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.1000_269 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0100_301 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0101_293 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0111_357 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0001_405 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0000_413 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0011_389 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[6] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0010_397 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.1000_349 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0110_365 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0100_381 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0101_373 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+Warning (13012): Latch BlinkMinBuff has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 269
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[0] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[5] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[1] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch BlinkHrBuff has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 270
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[0] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[1] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[0] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[6] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[1] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[5] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "AlmSeg[0]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 16
+    Warning (13410): Pin "AlmSeg[2]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 16
+    Warning (13410): Pin "AlmSeg[3]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 16
+    Warning (13410): Pin "State0[0]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 17
+    Warning (13410): Pin "State0[1]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 17
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/hongru/Downloads/DigitalWatch_final/output_files/DigitalWatch.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 624 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 61 output pins
+    Info (21061): Implemented 558 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 182 warnings
+    Info: Peak virtual memory: 861 megabytes
+    Info: Processing ended: Fri Dec 02 00:08:43 2016
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:37
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/hongru/Downloads/DigitalWatch_final/output_files/DigitalWatch.map.smsg.
+
+

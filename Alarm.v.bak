@@ -1,0 +1,45 @@
+module Alarm(
+
+input [5:0]SecTk,
+input[5:0]MinTk,
+input[4:0]HrTk,
+
+input Button1Alm;
+input Button2Alm,
+input Button3Alm,
+
+output reg[5:0]MinAlm,
+output reg[4:0]HrAlm,
+
+output reg Alarm,
+output reg BuzzerBit,
+
+output [1:0]BlinkAlm
+
+)
+
+
+always @(SecTk)
+	begin
+	
+		if(SecTk == 0 &  MinAlm == MinTk & HrAlm == HrTk)
+			begin
+				if(Alarm == 1)
+					begin
+					
+						BuzzerBit == 1;
+						
+					end
+			
+			end
+	end
+	
+always @ (posedge Button1Alm)
+	begin
+	
+		BlinkAlm = BlinkAlm +1;
+	
+	end
+
+
+

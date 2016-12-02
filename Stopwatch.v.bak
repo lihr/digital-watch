@@ -1,0 +1,8 @@
+module Stopwatch(
+
+input Clk_50Mhz,
+input Button1Sw,
+input Button2Sw,
+input Button3Sw,
+
+output []

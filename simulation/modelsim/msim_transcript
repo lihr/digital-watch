@@ -1,0 +1,23 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DigitalWatch_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work gate_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {DigitalWatch_7_1200mv_85c_slow.vo}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:25:38 on Nov 28,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." DigitalWatch_7_1200mv_85c_slow.vo 
+# -- Compiling module DigitalWatch
+# 
+# Top level modules:
+# 	DigitalWatch
+# End time: 19:25:38 on Nov 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

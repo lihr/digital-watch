@@ -1,0 +1,25 @@
+module DigitalWatch(
+
+input Clk_50MHz,
+
+output [6:0]Sec0,
+output [6:0]Sec1,
+output [6:0]Min0,
+output [6:0]Min1,
+output [6:0]Hr0,
+output [6:0]Hr1
+
+);
+
+//*****************RTC********************//
+
+wire [5:0]SecTk;
+wire [5:0]SecTk;
+wire [4:0]SecTk;
+
+
+
+//----------------------------------------//
+//************Display Driver**************//
+
+//----------------------------------------//

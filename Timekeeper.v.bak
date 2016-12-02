@@ -1,0 +1,15 @@
+module Timekeeper(
+
+input Clk_50Mhz,
+
+output reg [5:0]SecTk;
+output reg [5:0]SecTk;
+output reg [4:0]SecTk;
+
+
+);
+
+
+
+
+endmodule 

@@ -1,0 +1,253 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Sec0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Sec1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Min0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Min1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Hr1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AlmSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AlmSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AlmSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AlmSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "State0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "State0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "State0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "State0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "State0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BuzzerBit",
+					"strict" : false
+				},
+				{
+					"name" : "button0Led",
+					"strict" : false
+				},
+				{
+					"name" : "button1Led",
+					"strict" : false
+				},
+				{
+					"name" : "button2Led",
+					"strict" : false
+				},
+				{
+					"name" : "button3Led",
+					"strict" : false
+				},
+				{
+					"name" : "Clk_50MHz",
+					"strict" : false
+				},
+				{
+					"name" : "Button0_Rw",
+					"strict" : false
+				},
+				{
+					"name" : "Button2_Rw",
+					"strict" : false
+				},
+				{
+					"name" : "Button3_Rw",
+					"strict" : false
+				},
+				{
+					"name" : "Button1_Rw",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

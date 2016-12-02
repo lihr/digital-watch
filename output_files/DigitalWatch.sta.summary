@@ -1,0 +1,509 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Timekeeper:Tk0|Clk_10Hz'
+Slack : -6.769
+TNS   : -106.106
+
+Type  : Slow 1200mV 85C Model Setup 'State[0]'
+Slack : -5.376
+TNS   : -111.156
+
+Type  : Slow 1200mV 85C Model Setup 'Stopwatch:S0|Clk_100Hz'
+Slack : -4.476
+TNS   : -80.343
+
+Type  : Slow 1200mV 85C Model Setup 'Clk_50MHz'
+Slack : -4.254
+TNS   : -241.033
+
+Type  : Slow 1200mV 85C Model Setup 'SecBuffer[2]'
+Slack : -4.007
+TNS   : -64.606
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD2|Cleaned'
+Slack : -3.645
+TNS   : -41.715
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD3|Cleaned'
+Slack : -3.526
+TNS   : -3.526
+
+Type  : Slow 1200mV 85C Model Setup 'Alarm:A0|Alarm'
+Slack : -3.243
+TNS   : -3.243
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD0|Cleaned'
+Slack : -0.749
+TNS   : -1.447
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD0|Clk_100Hz'
+Slack : -0.688
+TNS   : -1.211
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD1|Clk_100Hz'
+Slack : -0.679
+TNS   : -1.177
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD3|Clk_100Hz'
+Slack : -0.676
+TNS   : -1.329
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD2|Clk_100Hz'
+Slack : -0.575
+TNS   : -0.739
+
+Type  : Slow 1200mV 85C Model Setup 'SignalDebounce:SD1|Cleaned'
+Slack : -0.058
+TNS   : -0.058
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD2|Cleaned'
+Slack : -1.922
+TNS   : -1.922
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD3|Cleaned'
+Slack : -0.146
+TNS   : -0.445
+
+Type  : Slow 1200mV 85C Model Hold 'Alarm:A0|Alarm'
+Slack : -0.059
+TNS   : -0.059
+
+Type  : Slow 1200mV 85C Model Hold 'State[0]'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clk_50MHz'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD1|Cleaned'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Timekeeper:Tk0|Clk_10Hz'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD1|Clk_100Hz'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD0|Clk_100Hz'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD3|Clk_100Hz'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD2|Clk_100Hz'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SecBuffer[2]'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Stopwatch:S0|Clk_100Hz'
+Slack : 0.505
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SignalDebounce:SD0|Cleaned'
+Slack : 0.577
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk_50MHz'
+Slack : -3.000
+TNS   : -140.495
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Stopwatch:S0|Clk_100Hz'
+Slack : -1.285
+TNS   : -25.700
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Timekeeper:Tk0|Clk_10Hz'
+Slack : -1.285
+TNS   : -25.700
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD3|Cleaned'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD2|Cleaned'
+Slack : -1.285
+TNS   : -15.420
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD0|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD1|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD2|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD3|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD1|Cleaned'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SignalDebounce:SD0|Cleaned'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'State[0]'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Alarm:A0|Alarm'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SecBuffer[2]'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Timekeeper:Tk0|Clk_10Hz'
+Slack : -6.041
+TNS   : -94.685
+
+Type  : Slow 1200mV 0C Model Setup 'State[0]'
+Slack : -4.999
+TNS   : -102.488
+
+Type  : Slow 1200mV 0C Model Setup 'Stopwatch:S0|Clk_100Hz'
+Slack : -4.045
+TNS   : -71.955
+
+Type  : Slow 1200mV 0C Model Setup 'Clk_50MHz'
+Slack : -3.849
+TNS   : -206.709
+
+Type  : Slow 1200mV 0C Model Setup 'SecBuffer[2]'
+Slack : -3.636
+TNS   : -57.952
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD3|Cleaned'
+Slack : -3.279
+TNS   : -3.279
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD2|Cleaned'
+Slack : -3.198
+TNS   : -36.476
+
+Type  : Slow 1200mV 0C Model Setup 'Alarm:A0|Alarm'
+Slack : -3.028
+TNS   : -3.028
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD0|Cleaned'
+Slack : -0.602
+TNS   : -1.168
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD0|Clk_100Hz'
+Slack : -0.517
+TNS   : -0.694
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD1|Clk_100Hz'
+Slack : -0.508
+TNS   : -0.685
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD3|Clk_100Hz'
+Slack : -0.505
+TNS   : -0.758
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD2|Clk_100Hz'
+Slack : -0.421
+TNS   : -0.421
+
+Type  : Slow 1200mV 0C Model Setup 'SignalDebounce:SD1|Cleaned'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD2|Cleaned'
+Slack : -1.792
+TNS   : -1.792
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD3|Cleaned'
+Slack : -0.119
+TNS   : -0.382
+
+Type  : Slow 1200mV 0C Model Hold 'Alarm:A0|Alarm'
+Slack : -0.018
+TNS   : -0.018
+
+Type  : Slow 1200mV 0C Model Hold 'State[0]'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk_50MHz'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD1|Cleaned'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Timekeeper:Tk0|Clk_10Hz'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD0|Clk_100Hz'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD1|Clk_100Hz'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD2|Clk_100Hz'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD3|Clk_100Hz'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SecBuffer[2]'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Stopwatch:S0|Clk_100Hz'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SignalDebounce:SD0|Cleaned'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk_50MHz'
+Slack : -3.000
+TNS   : -140.495
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Stopwatch:S0|Clk_100Hz'
+Slack : -1.285
+TNS   : -25.700
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Timekeeper:Tk0|Clk_10Hz'
+Slack : -1.285
+TNS   : -25.700
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD3|Cleaned'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD2|Cleaned'
+Slack : -1.285
+TNS   : -15.420
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD0|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD1|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD2|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD3|Clk_100Hz'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD1|Cleaned'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD0|Cleaned'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'State[0]'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Alarm:A0|Alarm'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SecBuffer[2]'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Timekeeper:Tk0|Clk_10Hz'
+Slack : -3.049
+TNS   : -47.008
+
+Type  : Fast 1200mV 0C Model Setup 'State[0]'
+Slack : -2.150
+TNS   : -42.588
+
+Type  : Fast 1200mV 0C Model Setup 'Stopwatch:S0|Clk_100Hz'
+Slack : -1.691
+TNS   : -29.981
+
+Type  : Fast 1200mV 0C Model Setup 'SecBuffer[2]'
+Slack : -1.660
+TNS   : -26.173
+
+Type  : Fast 1200mV 0C Model Setup 'Clk_50MHz'
+Slack : -1.612
+TNS   : -66.696
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD2|Cleaned'
+Slack : -1.351
+TNS   : -15.224
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD3|Cleaned'
+Slack : -1.340
+TNS   : -1.340
+
+Type  : Fast 1200mV 0C Model Setup 'Alarm:A0|Alarm'
+Slack : -1.186
+TNS   : -1.186
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD0|Cleaned'
+Slack : -0.097
+TNS   : -0.108
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD0|Clk_100Hz'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD1|Clk_100Hz'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD3|Clk_100Hz'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD2|Clk_100Hz'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SignalDebounce:SD1|Cleaned'
+Slack : 0.474
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD2|Cleaned'
+Slack : -0.913
+TNS   : -0.913
+
+Type  : Fast 1200mV 0C Model Hold 'Alarm:A0|Alarm'
+Slack : -0.107
+TNS   : -0.107
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD3|Cleaned'
+Slack : 0.052
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'State[0]'
+Slack : 0.073
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk_50MHz'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Timekeeper:Tk0|Clk_10Hz'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD1|Cleaned'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SecBuffer[2]'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD0|Clk_100Hz'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD1|Clk_100Hz'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD2|Clk_100Hz'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD3|Clk_100Hz'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Stopwatch:S0|Clk_100Hz'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SignalDebounce:SD0|Cleaned'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk_50MHz'
+Slack : -3.000
+TNS   : -117.675
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Stopwatch:S0|Clk_100Hz'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Timekeeper:Tk0|Clk_10Hz'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD3|Cleaned'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD2|Cleaned'
+Slack : -1.000
+TNS   : -12.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD0|Clk_100Hz'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD1|Clk_100Hz'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD2|Clk_100Hz'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD3|Clk_100Hz'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD1|Cleaned'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SignalDebounce:SD0|Cleaned'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SecBuffer[2]'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Alarm:A0|Alarm'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'State[0]'
+Slack : 0.413
+TNS   : 0.000
+
+------------------------------------------------------------
