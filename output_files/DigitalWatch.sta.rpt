@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for DigitalWatch
-Fri Dec 02 00:09:30 2016
+Fri Dec 02 02:18:51 2016
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -182,7 +182,7 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   3.5%      ;
+;     Processor 2            ;   4.1%      ;
 +----------------------------+-------------+
 
 
@@ -2765,8 +2765,8 @@ No paths to report.
 ; 0.039  ; Alarm:A0|MinAlm[0]   ; Alarm:A0|MinAlm[1] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.042     ; 0.938      ;
 ; 0.075  ; Alarm:A0|HrAlm[0]    ; Alarm:A0|HrAlm[2]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.042     ; 0.902      ;
 ; 0.077  ; Alarm:A0|HrAlm[0]    ; Alarm:A0|HrAlm[1]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.042     ; 0.900      ;
-; 0.297  ; Alarm:A0|MinAlm[1]   ; Alarm:A0|MinAlm[1] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.039     ; 0.683      ;
 ; 0.297  ; Alarm:A0|MinAlm[0]   ; Alarm:A0|MinAlm[0] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.039     ; 0.683      ;
+; 0.297  ; Alarm:A0|MinAlm[1]   ; Alarm:A0|MinAlm[1] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.039     ; 0.683      ;
 ; 0.297  ; Alarm:A0|HrAlm[0]    ; Alarm:A0|HrAlm[0]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.039     ; 0.683      ;
 ; 0.297  ; Alarm:A0|HrAlm[1]    ; Alarm:A0|HrAlm[1]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.039     ; 0.683      ;
 ; 0.297  ; Alarm:A0|HrAlm[2]    ; Alarm:A0|HrAlm[2]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.039     ; 0.683      ;
@@ -3244,32 +3244,32 @@ No paths to report.
 ; 0.598 ; SignalDebounce:SD0|Counter[11] ; SignalDebounce:SD0|Counter[11] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.841      ;
 ; 0.598 ; SignalDebounce:SD0|Counter[3]  ; SignalDebounce:SD0|Counter[3]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.841      ;
 ; 0.599 ; SignalDebounce:SD0|Counter[9]  ; SignalDebounce:SD0|Counter[9]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.842      ;
-; 0.600 ; Timekeeper:Tk0|Counter[13]     ; Timekeeper:Tk0|Counter[13]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.841      ;
 ; 0.600 ; SignalDebounce:SD0|Counter[25] ; SignalDebounce:SD0|Counter[25] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.843      ;
-; 0.601 ; Timekeeper:Tk0|Counter[17]     ; Timekeeper:Tk0|Counter[17]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.842      ;
+; 0.600 ; Timekeeper:Tk0|Counter[13]     ; Timekeeper:Tk0|Counter[13]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.841      ;
 ; 0.601 ; SignalDebounce:SD0|Counter[20] ; SignalDebounce:SD0|Counter[20] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.844      ;
+; 0.601 ; Timekeeper:Tk0|Counter[17]     ; Timekeeper:Tk0|Counter[17]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.842      ;
+; 0.602 ; SignalDebounce:SD0|Counter[5]  ; SignalDebounce:SD0|Counter[5]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.845      ;
 ; 0.602 ; Timekeeper:Tk0|Counter[25]     ; Timekeeper:Tk0|Counter[25]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.843      ;
 ; 0.602 ; Timekeeper:Tk0|Counter[4]      ; Timekeeper:Tk0|Counter[4]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.843      ;
-; 0.602 ; SignalDebounce:SD0|Counter[5]  ; SignalDebounce:SD0|Counter[5]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.845      ;
+; 0.603 ; SignalDebounce:SD0|Counter[21] ; SignalDebounce:SD0|Counter[21] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.846      ;
 ; 0.603 ; Timekeeper:Tk0|Counter[15]     ; Timekeeper:Tk0|Counter[15]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.844      ;
 ; 0.603 ; Timekeeper:Tk0|Counter[20]     ; Timekeeper:Tk0|Counter[20]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.844      ;
 ; 0.603 ; Timekeeper:Tk0|Counter[27]     ; Timekeeper:Tk0|Counter[27]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.844      ;
-; 0.603 ; SignalDebounce:SD0|Counter[21] ; SignalDebounce:SD0|Counter[21] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.846      ;
-; 0.604 ; Timekeeper:Tk0|Counter[7]      ; Timekeeper:Tk0|Counter[7]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.845      ;
-; 0.604 ; Timekeeper:Tk0|Counter[5]      ; Timekeeper:Tk0|Counter[5]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.845      ;
 ; 0.604 ; SignalDebounce:SD0|Counter[10] ; SignalDebounce:SD0|Counter[10] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.847      ;
 ; 0.604 ; SignalDebounce:SD0|Counter[8]  ; SignalDebounce:SD0|Counter[8]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.847      ;
 ; 0.604 ; SignalDebounce:SD0|Counter[6]  ; SignalDebounce:SD0|Counter[6]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.847      ;
 ; 0.604 ; SignalDebounce:SD0|Counter[2]  ; SignalDebounce:SD0|Counter[2]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.847      ;
-; 0.605 ; Timekeeper:Tk0|Counter[12]     ; Timekeeper:Tk0|Counter[12]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.846      ;
-; 0.605 ; Timekeeper:Tk0|Counter[21]     ; Timekeeper:Tk0|Counter[21]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.846      ;
-; 0.605 ; Timekeeper:Tk0|Counter[23]     ; Timekeeper:Tk0|Counter[23]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.846      ;
+; 0.604 ; Timekeeper:Tk0|Counter[7]      ; Timekeeper:Tk0|Counter[7]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.845      ;
+; 0.604 ; Timekeeper:Tk0|Counter[5]      ; Timekeeper:Tk0|Counter[5]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.845      ;
 ; 0.605 ; SignalDebounce:SD0|Counter[26] ; SignalDebounce:SD0|Counter[26] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.848      ;
 ; 0.605 ; SignalDebounce:SD0|Counter[24] ; SignalDebounce:SD0|Counter[24] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.848      ;
 ; 0.605 ; SignalDebounce:SD0|Counter[18] ; SignalDebounce:SD0|Counter[18] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.848      ;
+; 0.605 ; Timekeeper:Tk0|Counter[12]     ; Timekeeper:Tk0|Counter[12]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.846      ;
+; 0.605 ; Timekeeper:Tk0|Counter[21]     ; Timekeeper:Tk0|Counter[21]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.846      ;
+; 0.605 ; Timekeeper:Tk0|Counter[23]     ; Timekeeper:Tk0|Counter[23]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.846      ;
+; 0.606 ; SignalDebounce:SD0|Counter[22] ; SignalDebounce:SD0|Counter[22] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.849      ;
 ; 0.606 ; Timekeeper:Tk0|Counter[16]     ; Timekeeper:Tk0|Counter[16]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.847      ;
 ; 0.606 ; Timekeeper:Tk0|Counter[10]     ; Timekeeper:Tk0|Counter[10]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.847      ;
-; 0.606 ; SignalDebounce:SD0|Counter[22] ; SignalDebounce:SD0|Counter[22] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 0.849      ;
 ; 0.607 ; Timekeeper:Tk0|Counter[26]     ; Timekeeper:Tk0|Counter[26]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.848      ;
 ; 0.607 ; Timekeeper:Tk0|Counter[24]     ; Timekeeper:Tk0|Counter[24]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 0.848      ;
 ; 0.622 ; DisplayDriver:D0|Flip          ; DisplayDriver:D0|SSD_Digit1[4] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.088      ; 0.881      ;
@@ -3288,48 +3288,48 @@ No paths to report.
 ; 0.873 ; DisplayDriver:D2|Flip          ; DisplayDriver:D2|SSD_Digit0[6] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.086      ; 1.130      ;
 ; 0.873 ; DisplayDriver:D0|Flip          ; DisplayDriver:D0|SSD_Digit1[5] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.088      ; 1.132      ;
 ; 0.873 ; Timekeeper:Tk0|Counter[1]      ; Timekeeper:Tk0|Counter[2]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.114      ;
-; 0.875 ; Timekeeper:Tk0|Counter[3]      ; Timekeeper:Tk0|Counter[4]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.116      ;
 ; 0.875 ; SignalDebounce:SD0|Counter[0]  ; SignalDebounce:SD0|Counter[1]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.088      ; 1.134      ;
+; 0.875 ; Timekeeper:Tk0|Counter[3]      ; Timekeeper:Tk0|Counter[4]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.116      ;
 ; 0.880 ; Timekeeper:Tk0|Counter[0]      ; Timekeeper:Tk0|Counter[1]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.121      ;
 ; 0.881 ; Timekeeper:Tk0|Counter[2]      ; Timekeeper:Tk0|Counter[3]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.122      ;
 ; 0.883 ; DisplayDriver:D0|Flip          ; DisplayDriver:D0|SSD_Digit1[1] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.089      ; 1.143      ;
-; 0.885 ; DisplayDriver:D0|Flip          ; DisplayDriver:D0|SSD_Digit1[0] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.089      ; 1.145      ;
 ; 0.885 ; SignalDebounce:SD0|Counter[9]  ; SignalDebounce:SD0|Counter[10] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.128      ;
+; 0.885 ; DisplayDriver:D0|Flip          ; DisplayDriver:D0|SSD_Digit1[0] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.089      ; 1.145      ;
 ; 0.886 ; SignalDebounce:SD0|Counter[25] ; SignalDebounce:SD0|Counter[26] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.129      ;
 ; 0.888 ; Timekeeper:Tk0|Counter[25]     ; Timekeeper:Tk0|Counter[26]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.129      ;
 ; 0.889 ; SignalDebounce:SD0|Counter[5]  ; SignalDebounce:SD0|Counter[6]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.132      ;
 ; 0.889 ; SignalDebounce:SD0|Counter[20] ; SignalDebounce:SD0|Counter[21] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.132      ;
-; 0.890 ; Timekeeper:Tk0|Counter[15]     ; Timekeeper:Tk0|Counter[16]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.131      ;
-; 0.890 ; Timekeeper:Tk0|Counter[4]      ; Timekeeper:Tk0|Counter[5]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.131      ;
 ; 0.890 ; SignalDebounce:SD0|Counter[7]  ; SignalDebounce:SD0|Counter[8]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.133      ;
 ; 0.890 ; SignalDebounce:SD0|Counter[21] ; SignalDebounce:SD0|Counter[22] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.133      ;
+; 0.890 ; Timekeeper:Tk0|Counter[15]     ; Timekeeper:Tk0|Counter[16]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.131      ;
+; 0.890 ; Timekeeper:Tk0|Counter[4]      ; Timekeeper:Tk0|Counter[5]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.131      ;
 ; 0.891 ; Timekeeper:Tk0|Counter[20]     ; Timekeeper:Tk0|Counter[21]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.132      ;
 ; 0.891 ; Timekeeper:Tk0|Counter[22]     ; Timekeeper:Tk0|Counter[23]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.132      ;
 ; 0.891 ; Timekeeper:Tk0|Counter[0]      ; Timekeeper:Tk0|Counter[2]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.132      ;
-; 0.892 ; Timekeeper:Tk0|Counter[23]     ; Timekeeper:Tk0|Counter[24]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.133      ;
-; 0.892 ; Timekeeper:Tk0|Counter[2]      ; Timekeeper:Tk0|Counter[4]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.133      ;
 ; 0.892 ; SignalDebounce:SD0|Counter[10] ; SignalDebounce:SD0|Counter[11] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.135      ;
 ; 0.892 ; SignalDebounce:SD0|Counter[2]  ; SignalDebounce:SD0|Counter[3]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.135      ;
 ; 0.892 ; SignalDebounce:SD0|Counter[8]  ; SignalDebounce:SD0|Counter[9]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.135      ;
-; 0.893 ; Timekeeper:Tk0|Counter[19]     ; Timekeeper:Tk0|Counter[20]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.134      ;
-; 0.893 ; Timekeeper:Tk0|Counter[12]     ; Timekeeper:Tk0|Counter[13]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.134      ;
+; 0.892 ; Timekeeper:Tk0|Counter[23]     ; Timekeeper:Tk0|Counter[24]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.133      ;
+; 0.892 ; Timekeeper:Tk0|Counter[2]      ; Timekeeper:Tk0|Counter[4]      ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.133      ;
 ; 0.893 ; SignalDebounce:SD0|Counter[26] ; SignalDebounce:SD0|Counter[27] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.136      ;
 ; 0.893 ; SignalDebounce:SD0|Counter[24] ; SignalDebounce:SD0|Counter[25] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.136      ;
 ; 0.893 ; SignalDebounce:SD0|Counter[18] ; SignalDebounce:SD0|Counter[19] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.136      ;
-; 0.894 ; Timekeeper:Tk0|Counter[16]     ; Timekeeper:Tk0|Counter[17]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.135      ;
+; 0.893 ; Timekeeper:Tk0|Counter[19]     ; Timekeeper:Tk0|Counter[20]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.134      ;
+; 0.893 ; Timekeeper:Tk0|Counter[12]     ; Timekeeper:Tk0|Counter[13]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.134      ;
 ; 0.894 ; SignalDebounce:SD0|Counter[22] ; SignalDebounce:SD0|Counter[23] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.137      ;
+; 0.894 ; Timekeeper:Tk0|Counter[16]     ; Timekeeper:Tk0|Counter[17]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.135      ;
 ; 0.895 ; SignalDebounce:SD1|Clk_100Hz   ; SignalDebounce:SD1|Clk_100Hz   ; SignalDebounce:SD1|Clk_100Hz ; Clk_50MHz   ; 0.000        ; 2.794      ; 4.103      ;
 ; 0.895 ; Timekeeper:Tk0|Counter[24]     ; Timekeeper:Tk0|Counter[25]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.136      ;
 ; 0.895 ; Timekeeper:Tk0|Counter[26]     ; Timekeeper:Tk0|Counter[27]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.136      ;
 ; 0.900 ; SignalDebounce:SD0|Counter[20] ; SignalDebounce:SD0|Counter[22] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.143      ;
-; 0.902 ; Timekeeper:Tk0|Counter[22]     ; Timekeeper:Tk0|Counter[24]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.143      ;
 ; 0.902 ; SignalDebounce:SD0|Counter[16] ; SignalDebounce:SD0|Counter[18] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.145      ;
+; 0.902 ; Timekeeper:Tk0|Counter[22]     ; Timekeeper:Tk0|Counter[24]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.143      ;
 ; 0.903 ; SignalDebounce:SD0|Counter[8]  ; SignalDebounce:SD0|Counter[10] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.146      ;
 ; 0.903 ; SignalDebounce:SD0|Counter[6]  ; SignalDebounce:SD0|Counter[8]  ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.146      ;
 ; 0.904 ; SignalDebounce:SD0|Counter[18] ; SignalDebounce:SD0|Counter[20] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.147      ;
 ; 0.904 ; SignalDebounce:SD0|Counter[24] ; SignalDebounce:SD0|Counter[26] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.147      ;
-; 0.905 ; Timekeeper:Tk0|Counter[10]     ; Timekeeper:Tk0|Counter[12]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.146      ;
 ; 0.905 ; SignalDebounce:SD0|Counter[22] ; SignalDebounce:SD0|Counter[24] ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.072      ; 1.148      ;
+; 0.905 ; Timekeeper:Tk0|Counter[10]     ; Timekeeper:Tk0|Counter[12]     ; Clk_50MHz                    ; Clk_50MHz   ; 0.000        ; 0.070      ; 1.146      ;
 +-------+--------------------------------+--------------------------------+------------------------------+-------------+--------------+------------+------------+
 
 
@@ -4460,8 +4460,8 @@ No paths to report.
 ; 0.483  ; Alarm:A0|MinAlm[0]   ; Alarm:A0|MinAlm[1] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.502      ;
 ; 0.499  ; Alarm:A0|HrAlm[0]    ; Alarm:A0|HrAlm[2]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.024     ; 0.484      ;
 ; 0.501  ; Alarm:A0|HrAlm[0]    ; Alarm:A0|HrAlm[1]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.024     ; 0.482      ;
-; 0.626  ; Alarm:A0|MinAlm[1]   ; Alarm:A0|MinAlm[1] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.359      ;
 ; 0.626  ; Alarm:A0|MinAlm[0]   ; Alarm:A0|MinAlm[0] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.359      ;
+; 0.626  ; Alarm:A0|MinAlm[1]   ; Alarm:A0|MinAlm[1] ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.359      ;
 ; 0.626  ; Alarm:A0|HrAlm[0]    ; Alarm:A0|HrAlm[0]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.359      ;
 ; 0.626  ; Alarm:A0|HrAlm[1]    ; Alarm:A0|HrAlm[1]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.359      ;
 ; 0.626  ; Alarm:A0|HrAlm[2]    ; Alarm:A0|HrAlm[2]  ; SignalDebounce:SD2|Cleaned ; SignalDebounce:SD2|Cleaned ; 1.000        ; -0.022     ; 0.359      ;
@@ -6190,7 +6190,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Fri Dec 02 00:09:21 2016
+    Info: Processing started: Fri Dec 02 02:18:45 2016
 Info: Command: quartus_sta DigitalWatch -c DigitalWatch
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -6394,8 +6394,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 945 megabytes
-    Info: Processing ended: Fri Dec 02 00:09:30 2016
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Processing ended: Fri Dec 02 02:18:51 2016
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:04
 
 

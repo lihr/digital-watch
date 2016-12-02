@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-/////////////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Chamath Arunapura
-// 
-// Create Date:    11/24/2016 
-// Design Name: 
-// Module Name:    SSD Driver(Seven segment display)
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: also contains a BCD converter, which converts digits from 0 to 99
-//
-/////////////////////////////////////////////////////////////////////////////////////////
 
 module DisplayDriver(
 

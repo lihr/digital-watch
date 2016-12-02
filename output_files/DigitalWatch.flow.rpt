@@ -1,5 +1,5 @@
 Flow report for DigitalWatch
-Fri Dec 02 00:09:34 2016
+Fri Dec 02 02:18:54 2016
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Dec 02 00:09:34 2016       ;
+; Flow Status                        ; Successful - Fri Dec 02 02:18:54 2016       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; DigitalWatch                                ;
 ; Top-level Entity Name              ; DigitalWatch                                ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/02/2016 00:08:25 ;
+; Start date & time ; 12/02/2016 02:17:54 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DigitalWatch        ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 26653005190583.148065890501616 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 26653005190583.148066667400668 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                           ; --            ; --          ; eda_simulation ;
@@ -95,12 +95,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 856 MB              ; 00:00:37                           ;
-; Fitter                    ; 00:00:29     ; 1.0                     ; 1588 MB             ; 00:00:37                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 780 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 945 MB              ; 00:00:05                           ;
+; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 848 MB              ; 00:00:35                           ;
+; Fitter                    ; 00:00:26     ; 1.0                     ; 1587 MB             ; 00:00:34                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 780 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 945 MB              ; 00:00:04                           ;
 ; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 761 MB              ; 00:00:02                           ;
-; Total                     ; 00:01:00     ; --                      ; --                  ; 00:01:25                           ;
+; Total                     ; 00:00:54     ; --                      ; --                  ; 00:01:19                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

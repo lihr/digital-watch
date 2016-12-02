@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DigitalWatch
-Fri Dec 02 00:08:43 2016
+Fri Dec 02 02:18:10 2016
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -52,7 +52,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Dec 02 00:08:43 2016       ;
+; Analysis & Synthesis Status        ; Successful - Fri Dec 02 02:18:10 2016       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; DigitalWatch                                ;
 ; Top-level Entity Name              ; DigitalWatch                                ;
@@ -173,20 +173,20 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                     ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; DigitalWatch.v                   ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v      ;         ;
-; Timekeeper.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v        ;         ;
-; Stopwatch.v                      ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v         ;         ;
-; SignalDebounce.v                 ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/SignalDebounce.v    ;         ;
-; SingleDigit.v                    ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v       ;         ;
-; Alarm.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v             ;         ;
-; DisplayAlarmState.v              ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Downloads/DigitalWatch_final/DisplayAlarmState.v ;         ;
-; displaydriver.v                  ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v     ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                          ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; DigitalWatch.v                   ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v      ;         ;
+; Timekeeper.v                     ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v        ;         ;
+; Stopwatch.v                      ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v         ;         ;
+; SignalDebounce.v                 ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SignalDebounce.v    ;         ;
+; SingleDigit.v                    ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v       ;         ;
+; Alarm.v                          ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v             ;         ;
+; DisplayAlarmState.v              ; yes             ; User Verilog HDL File        ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DisplayAlarmState.v ;         ;
+; displaydriver.v                  ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v     ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------+
@@ -535,7 +535,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -545,276 +545,276 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Fri Dec 02 00:08:25 2016
+    Info: Processing started: Fri Dec 02 02:17:54 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DigitalWatch -c DigitalWatch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file digitalwatch.v
-    Info (12023): Found entity 1: DigitalWatch File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 1
+    Info (12023): Found entity 1: DigitalWatch File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file timekeeper.v
-    Info (12023): Found entity 1: Timekeeper File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 1
+    Info (12023): Found entity 1: Timekeeper File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file stopwatch.v
-    Info (12023): Found entity 1: Stopwatch File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 1
+    Info (12023): Found entity 1: Stopwatch File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file signaldebounce.v
-    Info (12023): Found entity 1: SignalDebounce File: C:/Users/hongru/Downloads/DigitalWatch_final/SignalDebounce.v Line: 1
+    Info (12023): Found entity 1: SignalDebounce File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SignalDebounce.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file singledigit.v
-    Info (12023): Found entity 1: SingleDigit File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 1
+    Info (12023): Found entity 1: SingleDigit File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alarm.v
-    Info (12023): Found entity 1: Alarm File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 1
+    Info (12023): Found entity 1: Alarm File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file displayalarmstate.v
-    Info (12023): Found entity 1: DisplayAlarmState File: C:/Users/hongru/Downloads/DigitalWatch_final/DisplayAlarmState.v Line: 1
+    Info (12023): Found entity 1: DisplayAlarmState File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DisplayAlarmState.v Line: 1
 Info (12127): Elaborating entity "DigitalWatch" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at DigitalWatch.v(43): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 43
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(101): variable "SecTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 101
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(102): variable "MinTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 102
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(103): variable "HrTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 103
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(109): variable "Blink" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 109
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(153): variable "MiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 153
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(154): variable "SecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 154
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(155): variable "MinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 155
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(161): variable "BlinkSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 161
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(187): variable "MinAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 187
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(188): variable "HrAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 188
-Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(195): variable "BlinkAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 195
-Warning (10270): Verilog HDL Case Statement warning at DigitalWatch.v(97): incomplete case statement has no default case item File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 97
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "MinBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "HrBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "SecBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateTk", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateSW", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateAlm", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkSecBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkMinBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkHrBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "BlinkHrBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "BlinkMinBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "BlinkSecBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "StateAlm" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "StateSW" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "StateTk" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "SecBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "HrBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (10041): Inferred latch for "MinBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Info (12128): Elaborating entity "SignalDebounce" for hierarchy "SignalDebounce:SD0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 58
-Warning (10230): Verilog HDL assignment warning at SignalDebounce.v(23): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Downloads/DigitalWatch_final/SignalDebounce.v Line: 23
-Info (12128): Elaborating entity "Stopwatch" for hierarchy "Stopwatch:S0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 240
-Warning (10230): Verilog HDL assignment warning at Stopwatch.v(28): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 28
-Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(62): variable "LiveMiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 62
-Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(63): variable "LiveSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 63
-Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(64): variable "LiveMinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 64
-Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(71): variable "TMPMiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 71
-Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(72): variable "TMPSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 72
-Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(73): variable "TMPMinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 73
-Warning (10230): Verilog HDL assignment warning at Stopwatch.v(97): truncated value with size 32 to match size of target (7) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 97
-Warning (10230): Verilog HDL assignment warning at Stopwatch.v(102): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 102
-Warning (10230): Verilog HDL assignment warning at Stopwatch.v(107): truncated value with size 32 to match size of target (7) File: C:/Users/hongru/Downloads/DigitalWatch_final/Stopwatch.v Line: 107
-Info (12128): Elaborating entity "Alarm" for hierarchy "Alarm:A0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 249
-Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "MinAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
-Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "MinTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
-Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "HrAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
-Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "HrTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 25
-Warning (10235): Verilog HDL Always Construct warning at Alarm.v(27): variable "Alarm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 27
-Warning (10235): Verilog HDL Always Construct warning at Alarm.v(35): variable "Button3Alm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 35
-Warning (10240): Verilog HDL Always Construct warning at Alarm.v(22): inferring latch(es) for variable "BuzzerBit", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 22
-Warning (10230): Verilog HDL assignment warning at Alarm.v(50): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 50
-Warning (10230): Verilog HDL assignment warning at Alarm.v(62): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 62
-Warning (10230): Verilog HDL assignment warning at Alarm.v(73): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 73
-Info (10041): Inferred latch for "BuzzerBit" at Alarm.v(35) File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 35
-Info (12128): Elaborating entity "Timekeeper" for hierarchy "Timekeeper:Tk0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 259
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(30): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 30
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(39): truncated value with size 32 to match size of target (3) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 39
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(44): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 44
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(50): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 50
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(56): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 56
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(80): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 80
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(92): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 92
-Warning (10230): Verilog HDL assignment warning at Timekeeper.v(108): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Downloads/DigitalWatch_final/Timekeeper.v Line: 108
+Warning (10230): Verilog HDL assignment warning at DigitalWatch.v(43): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 43
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(101): variable "SecTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 101
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(102): variable "MinTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 102
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(103): variable "HrTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 103
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(109): variable "Blink" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 109
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(153): variable "MiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 153
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(154): variable "SecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 154
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(155): variable "MinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 155
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(161): variable "BlinkSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 161
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(187): variable "MinAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 187
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(188): variable "HrAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 188
+Warning (10235): Verilog HDL Always Construct warning at DigitalWatch.v(195): variable "BlinkAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 195
+Warning (10270): Verilog HDL Case Statement warning at DigitalWatch.v(97): incomplete case statement has no default case item File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 97
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "MinBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "HrBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "SecBuffer", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateTk", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateSW", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "StateAlm", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkSecBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkMinBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (10240): Verilog HDL Always Construct warning at DigitalWatch.v(95): inferring latch(es) for variable "BlinkHrBuff", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "BlinkHrBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "BlinkMinBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "BlinkSecBuff" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "StateAlm" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "StateSW" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "StateTk" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "SecBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "HrBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[0]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[1]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[2]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[3]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[4]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[5]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (10041): Inferred latch for "MinBuffer[6]" at DigitalWatch.v(95) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Info (12128): Elaborating entity "SignalDebounce" for hierarchy "SignalDebounce:SD0" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 58
+Warning (10230): Verilog HDL assignment warning at SignalDebounce.v(23): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SignalDebounce.v Line: 23
+Info (12128): Elaborating entity "Stopwatch" for hierarchy "Stopwatch:S0" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 240
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(28): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 28
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(62): variable "LiveMiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 62
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(63): variable "LiveSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 63
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(64): variable "LiveMinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 64
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(71): variable "TMPMiliSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 71
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(72): variable "TMPSecSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 72
+Warning (10235): Verilog HDL Always Construct warning at Stopwatch.v(73): variable "TMPMinSW" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 73
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(97): truncated value with size 32 to match size of target (7) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 97
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(102): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 102
+Warning (10230): Verilog HDL assignment warning at Stopwatch.v(107): truncated value with size 32 to match size of target (7) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Stopwatch.v Line: 107
+Info (12128): Elaborating entity "Alarm" for hierarchy "Alarm:A0" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 249
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "MinAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "MinTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "HrAlm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(25): variable "HrTk" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 25
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(27): variable "Alarm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 27
+Warning (10235): Verilog HDL Always Construct warning at Alarm.v(35): variable "Button3Alm" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 35
+Warning (10240): Verilog HDL Always Construct warning at Alarm.v(22): inferring latch(es) for variable "BuzzerBit", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 22
+Warning (10230): Verilog HDL assignment warning at Alarm.v(50): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 50
+Warning (10230): Verilog HDL assignment warning at Alarm.v(62): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 62
+Warning (10230): Verilog HDL assignment warning at Alarm.v(73): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 73
+Info (10041): Inferred latch for "BuzzerBit" at Alarm.v(35) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 35
+Info (12128): Elaborating entity "Timekeeper" for hierarchy "Timekeeper:Tk0" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 259
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(30): truncated value with size 32 to match size of target (28) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 30
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(39): truncated value with size 32 to match size of target (3) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 39
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(44): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 44
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(50): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 50
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(56): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 56
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(80): truncated value with size 32 to match size of target (6) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 80
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(92): truncated value with size 32 to match size of target (5) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 92
+Warning (10230): Verilog HDL assignment warning at Timekeeper.v(108): truncated value with size 32 to match size of target (2) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Timekeeper.v Line: 108
 Warning (12125): Using design file displaydriver.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: DisplayDriver File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 22
-Info (12128): Elaborating entity "DisplayDriver" for hierarchy "DisplayDriver:D0" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 273
-Warning (10270): Verilog HDL Case Statement warning at displaydriver.v(115): incomplete case statement has no default case item File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 115
-Warning (10240): Verilog HDL Always Construct warning at displaydriver.v(113): inferring latch(es) for variable "bcd1", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (10240): Verilog HDL Always Construct warning at displaydriver.v(113): inferring latch(es) for variable "bcd0", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.1001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.1000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0111" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0110" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0101" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0100" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0011" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0010" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd0.0000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.1001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.1000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0111" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0110" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0101" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0100" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0011" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0010" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0001" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (10041): Inferred latch for "bcd1.0000" at displaydriver.v(113) File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Info (12128): Elaborating entity "DisplayAlarmState" for hierarchy "DisplayAlarmState:D3" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 276
-Info (12128): Elaborating entity "SingleDigit" for hierarchy "SingleDigit:D4" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 277
-Warning (10270): Verilog HDL Case Statement warning at SingleDigit.v(12): incomplete case statement has no default case item File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 12
-Warning (10240): Verilog HDL Always Construct warning at SingleDigit.v(9): inferring latch(es) for variable "SevenSeg", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[0]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[1]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[2]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[3]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[4]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[5]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Info (10041): Inferred latch for "SevenSeg[6]" at SingleDigit.v(9) File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0001_325" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0000_333" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0001_325" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0000_333" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0100_301" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0101_293" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0110_285" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0111_277" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.1000_269" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0010_317" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0011_389" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0010_397" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0001_405" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0000_413" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0011_309" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0100_301" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0101_293" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0110_285" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0111_277" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.1000_269" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0010_317" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0110_365" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0101_373" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0100_381" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0011_389" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0010_397" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0001_405" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0000_413" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0011_309" is permanently enabled File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
+    Info (12023): Found entity 1: DisplayDriver File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 3
+Info (12128): Elaborating entity "DisplayDriver" for hierarchy "DisplayDriver:D0" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 273
+Warning (10270): Verilog HDL Case Statement warning at displaydriver.v(96): incomplete case statement has no default case item File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 96
+Warning (10240): Verilog HDL Always Construct warning at displaydriver.v(94): inferring latch(es) for variable "bcd1", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (10240): Verilog HDL Always Construct warning at displaydriver.v(94): inferring latch(es) for variable "bcd0", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.1001" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.1000" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0111" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0110" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0101" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0100" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0011" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0010" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0001" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd0.0000" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.1001" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.1000" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0111" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0110" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0101" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0100" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0011" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0010" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0001" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (10041): Inferred latch for "bcd1.0000" at displaydriver.v(94) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Info (12128): Elaborating entity "DisplayAlarmState" for hierarchy "DisplayAlarmState:D3" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 276
+Info (12128): Elaborating entity "SingleDigit" for hierarchy "SingleDigit:D4" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 277
+Warning (10270): Verilog HDL Case Statement warning at SingleDigit.v(12): incomplete case statement has no default case item File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at SingleDigit.v(9): inferring latch(es) for variable "SevenSeg", which holds its previous value in one or more paths through the always construct File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[0]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[1]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[2]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[3]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[4]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[5]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Info (10041): Inferred latch for "SevenSeg[6]" at SingleDigit.v(9) File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0001_325" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0000_333" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0001_325" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0000_333" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0100_301" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0101_293" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0110_285" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0111_277" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.1000_269" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0010_317" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0011_389" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0010_397" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0001_405" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd1.0000_413" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D2|bcd0.0011_309" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0100_301" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0101_293" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0110_285" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0111_277" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.1000_269" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0010_317" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0110_365" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0101_373" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0100_381" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0011_389" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0010_397" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0001_405" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd1.0000_413" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+Warning (14026): LATCH primitive "DisplayDriver:D1|bcd0.0011_309" is permanently enabled File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
-    Info (13026): Duplicate LATCH primitive "StateSW" merged with LATCH primitive "SingleDigit:D4|SevenSeg[2]" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 37
-    Info (13026): Duplicate LATCH primitive "StateAlm" merged with LATCH primitive "SingleDigit:D4|SevenSeg[3]" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 38
-    Info (13026): Duplicate LATCH primitive "StateTk" merged with LATCH primitive "SingleDigit:D4|SevenSeg[4]" File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 36
-    Info (13026): Duplicate LATCH primitive "SingleDigit:D4|SevenSeg[6]" merged with LATCH primitive "SingleDigit:D4|SevenSeg[4]" File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-Warning (13012): Latch SingleDigit:D4|SevenSeg[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SingleDigit:D4|SevenSeg[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SingleDigit:D4|SevenSeg[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SingleDigit:D4|SevenSeg[5] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/SingleDigit.v Line: 9
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch Alarm:A0|BuzzerBit has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/Alarm.v Line: 15
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Button3Alm File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 74
-Warning (13012): Latch DisplayDriver:D0|bcd0.0111_277 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.0001_325 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.0000_333 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch BlinkSecBuff has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 268
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch DisplayDriver:D0|bcd0.0010_317 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.0011_309 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.0110_285 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.1000_269 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.0100_301 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd0.0101_293 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0111_357 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0001_405 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0000_413 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0011_389 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[6] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0010_397 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.1000_349 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0110_365 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0100_381 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch DisplayDriver:D0|bcd1.0101_373 has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/displaydriver.v Line: 113
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-Warning (13012): Latch BlinkMinBuff has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 269
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch MinBuffer[0] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch MinBuffer[5] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch MinBuffer[1] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch MinBuffer[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch MinBuffer[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch MinBuffer[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch BlinkHrBuff has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 270
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch HrBuffer[0] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch HrBuffer[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch HrBuffer[1] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch HrBuffer[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch HrBuffer[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[0] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[6] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[1] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[2] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[3] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[5] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
-Warning (13012): Latch SecBuffer[4] has unsafe behavior File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 95
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 40
+    Info (13026): Duplicate LATCH primitive "StateSW" merged with LATCH primitive "SingleDigit:D4|SevenSeg[2]" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 37
+    Info (13026): Duplicate LATCH primitive "StateAlm" merged with LATCH primitive "SingleDigit:D4|SevenSeg[3]" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 38
+    Info (13026): Duplicate LATCH primitive "StateTk" merged with LATCH primitive "SingleDigit:D4|SevenSeg[4]" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 36
+    Info (13026): Duplicate LATCH primitive "SingleDigit:D4|SevenSeg[6]" merged with LATCH primitive "SingleDigit:D4|SevenSeg[4]" File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+Warning (13012): Latch SingleDigit:D4|SevenSeg[2] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SingleDigit:D4|SevenSeg[3] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SingleDigit:D4|SevenSeg[4] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SingleDigit:D4|SevenSeg[5] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/SingleDigit.v Line: 9
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch Alarm:A0|BuzzerBit has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/Alarm.v Line: 15
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Button3Alm File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 74
+Warning (13012): Latch DisplayDriver:D0|bcd0.0111_277 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0001_325 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0000_333 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch BlinkSecBuff has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 268
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch DisplayDriver:D0|bcd0.0010_317 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0011_309 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0110_285 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.1000_269 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0100_301 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd0.0101_293 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0111_357 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0001_405 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0000_413 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0011_389 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[6] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0010_397 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.1000_349 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0110_365 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0100_381 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch DisplayDriver:D0|bcd1.0101_373 has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/displaydriver.v Line: 94
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal SecBuffer[5] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+Warning (13012): Latch BlinkMinBuff has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 269
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[0] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[5] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[1] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[2] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[3] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch MinBuffer[4] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch BlinkHrBuff has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 270
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[0] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[4] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[1] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[2] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch HrBuffer[3] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[0] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[6] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[0] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[1] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[2] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[3] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[5] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
+Warning (13012): Latch SecBuffer[4] has unsafe behavior File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 95
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal State[1] File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 40
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "AlmSeg[0]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 16
-    Warning (13410): Pin "AlmSeg[2]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 16
-    Warning (13410): Pin "AlmSeg[3]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 16
-    Warning (13410): Pin "State0[0]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 17
-    Warning (13410): Pin "State0[1]" is stuck at GND File: C:/Users/hongru/Downloads/DigitalWatch_final/DigitalWatch.v Line: 17
+    Warning (13410): Pin "AlmSeg[0]" is stuck at GND File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 16
+    Warning (13410): Pin "AlmSeg[2]" is stuck at GND File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 16
+    Warning (13410): Pin "AlmSeg[3]" is stuck at GND File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 16
+    Warning (13410): Pin "State0[0]" is stuck at GND File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 17
+    Warning (13410): Pin "State0[1]" is stuck at GND File: C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/DigitalWatch.v Line: 17
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/hongru/Downloads/DigitalWatch_final/output_files/DigitalWatch.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/output_files/DigitalWatch.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 624 device resources after synthesis - the final resource count might be different
@@ -822,15 +822,15 @@ Info (21057): Implemented 624 device resources after synthesis - the final resou
     Info (21059): Implemented 61 output pins
     Info (21061): Implemented 558 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 182 warnings
-    Info: Peak virtual memory: 861 megabytes
-    Info: Processing ended: Fri Dec 02 00:08:43 2016
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:37
+    Info: Peak virtual memory: 862 megabytes
+    Info: Processing ended: Fri Dec 02 02:18:10 2016
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:36
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/hongru/Downloads/DigitalWatch_final/output_files/DigitalWatch.map.smsg.
+The suppressed messages can be found in C:/Users/hongru/Documents/STUDY/UofM/Projects/Digital Watch - ECE 2220 Final Project/DigitalWatch/output_files/DigitalWatch.map.smsg.
 
 
